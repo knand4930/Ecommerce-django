@@ -1,0 +1,16 @@
+
+
+
+{% for obj in queryset %}
+
+<h4>Product Name</h4>{{obj.title}}</br>
+
+<h4>Product Price</h4>{{obj.price}}</br>
+
+<h4>Product Description</h4>{{obj.description}}</br>
+
+
+
+
+{% endfor %}
+<h4>Product Features</h4>{{features}}</br>
